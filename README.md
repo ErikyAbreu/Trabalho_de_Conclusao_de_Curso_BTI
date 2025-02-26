@@ -1,5 +1,7 @@
 # **AVALIAÇÃO DAS AÇÕES DE APOIO AO ENSINO DE MATEMÁTICA DISCRETA NA UFERSA - CAMPUS PAU DOS FERROS:** IMPACTOS NO DESEMPENHO ACADÊMICO 
 
+---
+
 ## 🎯 Objetivos
 
 Este repositório tem como objetivo servir como um pacote de replicação para o Trabalho de Conclusão de Curso (TCC) do curso de Bacharelado em Tecnologia da Informação do discente Eriky Veloso.
@@ -49,10 +51,10 @@ quant_dados = 00  # INFORME A QUANTIDADE DE DADOS OBTIDOS
     ```python
     tabela_alunos = pd.read_csv("/content/drive/MyDrive/MeuProjeto/Dados/alunos.csv")
     ```
-- **Troque** `00` pelo número de registros contidos na planilha.
+- **Troque** `00` pelo número de registros contidos na planilha + 1.
   - Exemplo:
     ```python
-    quant_dados = 60  # Se houver 60 registros na planilha
+    quant_dados = 61  # Se houver 60 registros na planilha
     ```
 
 ### 5️⃣ Executando o Código no Google Colab
