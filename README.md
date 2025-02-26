@@ -6,7 +6,10 @@ Este repositório tem como objetivo servir como um pacote de replicação para o
 A estrutura do repositório está organizada da seguinte forma:
 - Pasta "Artefatos": Contém os formulários e modelos de planilhas utilizados na pesquisa.
 - Pasta "Desenvolvimento": Reúne a análise e o tratamento dos dados, realizados por meio da biblioteca Pandas, da linguagem de programação Python, com o auxílio da plataforma Google Colab.
+
 Essa organização facilita a replicação e compreensão dos procedimentos adotados ao longo do estudo.
+
+---
 
 ## 📌 Passo a Passo para Replicar
 
@@ -17,8 +20,6 @@ Essa organização facilita a replicação e compreensão dos procedimentos adot
 4. Salve o arquivo.
  5.Converta na extensão .csv antes de prosseguir para o próximo passo.
 
----
-
 ### 2️⃣ Upload da Planilha no Google Drive
 1. Acesse sua conta do **Google Drive** ([drive.google.com](https://drive.google.com/)).
 2. Clique no botão **"Novo"** > **"Upload de Arquivo"**.
@@ -26,14 +27,10 @@ Essa organização facilita a replicação e compreensão dos procedimentos adot
 4. Após o upload, clique com o botão direito sobre a planilha e selecione **"Obter link"**.
 5. Copie o caminho do arquivo para usá-lo mais tarde no Google Colab.
 
----
-
 ### 3️⃣ Cópia do Código para o Google Colab
 1. Acesse o **Google Colab** através do link: [Google Colab](https://colab.google/).
 2. Localize o código que deseja copiar (analise_dos_dados_pacote_de_replicacao.ipynb).
 3. Faça uma cópia do notebook.
-
----
 
 ### 4️⃣ Ajuste das Importações no Código
 
@@ -55,10 +52,8 @@ quant_dados = 00  # INFORME A QUANTIDADE DE DADOS OBTIDOS
 - **Troque** `00` pelo número de registros contidos na planilha.
   - Exemplo:
     ```python
-    quant_dados = 250  # Se houver 250 registros na planilha
+    quant_dados = 60  # Se houver 60 registros na planilha
     ```
-
----
 
 ### 5️⃣ Executando o Código no Google Colab
 1. Após realizar as modificações, clique no botão **"Executar"** na célula de código.
@@ -67,6 +62,8 @@ quant_dados = 00  # INFORME A QUANTIDADE DE DADOS OBTIDOS
 4. Aguarde a execução e verifique se os dados foram importados corretamente.
 
 Agora o seu código está pronto para ser utilizado no Google Colab com os dados atualizados! 
+
+---
 
 ## 📖 Resumo
 
